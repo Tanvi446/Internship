@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    padding:20px;
+    background:#f5f5f5;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+button{
+    padding:10px 15px;
+    margin-right:10px;
+    margin-bottom:20px;
+    cursor:pointer;
+}
+
+#container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.created-div{
+    border:2px solid black;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+}
